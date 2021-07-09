@@ -1,0 +1,52 @@
+// Choreo version 1
+actor "!player"
+{
+  channel "audio"
+  {
+    event speak "glados.botcoop_intro05"
+    {
+      time 0.000000 0.496
+      param "glados.botcoop_intro05"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "glados.testchambermisc12"
+    {
+      time 0.8290000 03.991
+      param "glados.testchambermisc12"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "LookAt"
+  {
+  }
+  channel "FaceTo"
+  {
+  }
+  channel "MoveTo"
+  {
+  }
+  channel "Animation"
+  {
+  }
+  channel "Gesture"
+  {
+  }
+  channel "Trigger"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "64"
+  "ExpressionTool" "100"
+  "RampTool" "66"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off

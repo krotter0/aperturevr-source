@@ -1,0 +1,134 @@
+
+"EntryExitElevator.Interior"
+{ 
+	"playevent"
+	{
+		"event"	"AmbIndustrialMed.MainLp"
+		"volume"	"0.85"
+	}
+}
+
+"TestChamber_Vegetation.Elevator_01"
+{ 
+	"playevent"
+	{
+		"event"	"AmbDestroyedElevator.MainLp"
+		"volume"	"0.85"
+	}
+	"playevent"
+	{
+		"event"	"AmbientNature.Insects01"
+		"volume"	"0.85"
+	}
+	"playevent"
+	{
+		"event"	"AmbientNature.ElevatorBirds01"
+		"volume"	"0.65"
+		"rand_radius_min" "1200.0"
+		"rand_radius_max" "2000.0"
+	}
+	"playevent"
+	{
+		"event"	"AmbientWind.EerieLp"
+		"volume"	"0.55"
+	}
+
+}
+"nature_to_industrial_gen_01"
+{ 
+	"playevent"
+	{
+		"event"	"AmbDestroyedElevator.MainLp"
+		"volume"	"0.45"
+	}
+	"playevent"
+	{
+		"event"	"AmbIndustrialMed.MainLp"
+		"volume"	"0.35"
+	}
+	"playevent"
+	{
+		"event"	"AmbientIndustrial.Muffled02Lp "
+		"volume"	"0.35"
+		"rand_radius_min" "1100.0"
+		"rand_radius_max" "2000.0"
+	}
+	"playevent"
+	{
+		"event"	"AmbientIndustrial.HeavyMach02Lp"
+		"volume"	"0.25"
+		"rand_radius_min" "1200.0"
+		"rand_radius_max" "2000.0"
+	}
+	"playevent"
+	{
+		"event"	"AmbientWind.EerieLp"
+		"volume"	"0.15"
+	}
+
+}
+"industrial_gen_01"
+{ 
+	"playevent"
+	{
+		"event"	"AmbIndustrialMed.MainLp"
+		"volume"	"0.35"
+	}
+	"playevent"
+	{
+		"event"	"AmbientIndustrial.Muffled02Lp "
+		"volume"	"0.35"
+		"rand_radius_min" "1100.0"
+		"rand_radius_max" "2000.0"
+	}
+	"playevent"
+	{
+		"event"	"AmbientIndustrial.HeavyMach02Lp"
+		"volume"	"0.25"
+		"rand_radius_min" "1200.0"
+		"rand_radius_max" "2000.0"
+	}
+	"playevent"
+	{
+		"event"	"AmbientWind.EerieLp"
+		"volume"	"0.15"
+	}
+
+}
+"TestChamber_01"
+{ 
+	"playevent"
+	{
+		"event"	"AmbIndustrialMed.MainLp"
+		"volume"	"0.85"
+	}
+	"playevent"
+	{
+		"event"	"AmbDestroyedElevator.MainLp"
+		"volume"	"0.15"
+	}
+	"playevent"
+	{
+		"event"	"AmbientNature.Insects01"
+		"volume"	"0.85"
+		"rand_radius_min" "1100.0"
+		"rand_radius_max" "2000.0"
+	}
+
+	"playevent"
+	{
+		"event"	"AmbientWind.EerieLp"
+		"volume"	"0.55"
+	}
+	"playevent"
+	{
+		"event"	"AmbientWind.Gusts01"
+		"volume"	"0.85"
+		"rand_radius_min" "1600.0"
+		"rand_radius_max" "2000.0"
+	}
+ 
+}
+
+
+

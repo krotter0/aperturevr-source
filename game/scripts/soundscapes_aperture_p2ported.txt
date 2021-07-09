@@ -1,0 +1,660 @@
+
+////////////////
+
+"EntryExitElevator.Exterior"
+{
+	"playevent"
+	{
+		"event"	"AmbIndustrialMed.MainLp"
+		"volume"	"0.85"
+	}
+	"playevent"
+	{
+		"event"	"AmbientIndustrial.HeavyMach02Lp"
+		"volume"	"0.25"
+	}
+}
+
+"EntryExitElevator.IndustrialStairs"
+{
+	"playevent"
+	{
+		"event"	"AmbientIndustrial.Muffled02Lp"
+		"volume"	"0.61"
+	}
+	"playevent"
+	{
+		"event"	"AmbientIndustrial.HeavyMach02Lp"
+		"volume"	"0.1"
+	}
+	"playevent"
+	{
+		"event"	"AmbientIndustrial.RandomMuffledMach"
+		"volume"	"1.0"
+	}
+}
+
+"EntryExitElevator.OpenChamber"
+{
+	"playevent"
+	{
+		"event"	"AmbientNature.Insects01_1Only"
+		"volume"	"0.8"
+	}
+}
+"TestChamber_01.Vent"
+{
+	"playevent"
+	{
+		"event"	"AmbientProps.TonalVentLp01"
+		"volume"	"0.2"
+	}
+}
+
+
+
+"TestChamber_Vegetation.Crows"
+{
+	"playevent"
+	{
+		"event"	"AmbientNature.BirdsCrows"
+		"volume"	"1.0"
+	}
+
+	"playevent"
+	{
+		"event"	"AmbientNature.BirdsWingFlaps"
+		"volume"	"1.0"
+	}
+}
+"TestChamber_Vegetation.Insects_01"
+{
+	"playevent"
+	{
+		"event"	"AmbientNature.Insects01_1Only"
+		"volume"	"0.8"
+	}
+}
+"TestChamber_Vegetation.Insects_02"
+{
+	"playevent"
+	{
+		"event"	"AmbientNature.Insects01_2Only"
+		"volume"	"0.8"
+	}
+}
+"TestChamber_Vegetation.Insects_03"
+{
+	"playevent"
+	{
+		"event"	"AmbientNature.Insects01_3Only"
+		"volume"	"0.8"
+	}
+}
+"TestChamber_Vegetation.WaterDrips"
+{
+	"playevent"
+	{
+		"event"	"AmbientNature.WaterDrips"
+		"volume"	"1.0"
+	}
+}
+
+"TestChamber_Vegetation.AfricanBirds"
+{
+	"playevent"
+	{
+		"event"	"AmbientNature.BirdsAfrican"
+		"volume"	"1.0"
+	}
+}
+"TestChamber_Vegetation.Standard"
+{
+	"playsoundscape" 
+ 	{
+		"name"	"TestChamber_Vegetation.Crows"
+		"volume" "1"
+	}
+	
+	"playsoundscape" 
+ 	{
+		"name"	"TestChamber_Vegetation.Insects_01"
+		"volume" "1"
+	}
+	
+	"playsoundscape" 
+ 	{
+		"name"	"TestChamber_Vegetation.WaterDrips"
+		"volume" "1"
+	}
+	
+	"playsoundscape" 
+ 	{
+		"name"	"TestChamber_Vegetation.AfricanBirds"
+		"volume" "1"
+	}
+	
+}
+
+"TestChamber.Vegetation"
+{
+	"playsoundscape" 
+ 	{
+		"name"	"TestChamber_Vegetation.Standard"
+		"volume" "1"
+	}
+}
+"TestChamber_Vegetation.BirdsInsects"
+{
+	"dsp"	"1"
+	
+	"playsoundscape" 
+ 	{
+		"name"	"TestChamber_Vegetation.Crows"
+		"volume" "1"
+	}
+	
+	"playsoundscape" 
+ 	{
+		"name"	"TestChamber_Vegetation.AfricanBirds"
+		"volume" "1"
+	}
+	
+	"playsoundscape" 
+ 	{
+		"name"	"TestChamber_Vegetation.Insects_01"
+		"volume" "1"
+	}
+}
+
+"TestChamber_Vegetation.NoBirds"
+{
+	"dsp"	"1"
+	
+	"playsoundscape" 
+ 	{
+		"name"	"TestChamber_Vegetation.Insects_01"
+		"volume" "1"
+	}
+	
+	"playsoundscape" 
+ 	{
+		"name"	"TestChamber_Vegetation.WaterDrips"
+		"volume" "1"
+	}	
+}
+
+"TestChamber_Intro_02.BigRoom"
+{
+	"dsp"	"1"
+	"fadetime"	"3.5"
+	
+	"playsoundscape"
+	{
+		"name"	"TestChamber_Vegetation.BirdsInsects"
+		"volume" "1"
+	}
+	
+	"playsoundscape"
+	{
+		"name"	"TestChamber_Vegetation.Insects_02"
+		"volume" "0.8"
+	}
+}
+
+"TestChamber_Intro_02.IntroRoom"
+{
+	"dsp"	"1"
+	"fadetime"	"3.5"
+	
+	"playsoundscape"
+	{
+		"name"	"TestChamber_Vegetation.Insects_02"
+		"volume" "1"
+	}
+	
+	"playsoundscape"
+	{
+		"name"	"TestChamber_Vegetation.Insects_03"
+		"volume" "0.8"
+	}
+}
+"TestChamber_Intro_02.IntroRoom_02"
+{
+	"dsp"	"1"
+	"fadetime"	"3.5"
+	
+	"playsoundscape"
+	{
+		"name"	"TestChamber_Vegetation.Insects_02"
+		"volume" "1"
+	}
+	
+	"playsoundscape"
+	{
+		"name"	"TestChamber_Vegetation.Insects_03"
+		"volume" "0.8"
+	}
+	
+	"playsoundscape"
+	{
+		"name"	"TestChamber_Vegetation.WaterDrips"
+		"volume" "0.7"
+	}
+}
+"TestChamber_Intro_02.SideRoom"
+{
+	"dsp"	"1"
+	"fadetime"	"2.5"
+	
+	"playsoundscape"
+	{
+		"name"	"TestChamber_Vegetation.BirdsInsects"
+		"volume" "1"
+	}
+	
+	"playsoundscape"
+	{
+		"name"	"TestChamber_Vegetation.Insects_02"
+		"volume" "0.8"
+	}
+}
+"TestChamber_Destruction.DestructionBeauty"
+{
+	"playevent"
+	{
+		"event"	"AmbientSynth.DestructionBeauty"
+		"volume"	"1.0"
+	}
+}
+"Testchamber_Destruction.Grain_Click"
+{
+	"playevent"
+	{
+		"event"	"AmbientSynth.DestructionGrainClick"
+		"volume"	"1.0"
+	}
+}
+"TestChamber_Destruction.WindEerie_01"
+{
+	"playevent"
+	{
+		"event"	"AmbientWind.EerieLp"
+		"volume"	"1.0"
+	}
+}
+"TestChamber_Vegetation.Intro_01_CubeRoom"
+{
+	
+	"dsp" "1"
+	"fadetime" "1.0"
+	
+	"playsoundscape"
+ 	{
+		"name"	"TestChamber_Destruction.DestructionBeauty"
+		"volume" "0.7"
+	}	
+	
+	"playsoundscape"
+ 	{
+		"name"	"TestChamber_Destruction.Grain_Click"
+		"volume" "0.7"
+	}
+	
+	"playsoundscape" 
+ 	{
+		"name"	"TestChamber_Destruction.WindEerie_01"
+		"volume" "0.5"
+	}	
+	
+	"playsoundscape" 
+ 	{
+		"name"	"TestChamber_Vegetation.Insects_01"
+		"volume" "0.3"
+	}
+	
+	"playsoundscape" 
+ 	{
+		"name"	"TestChamber_Vegetation.Insects_03"
+		"volume" "0.2"
+	}
+
+	"playevent"
+	{
+		"event"	"AmbientLevels.CanalsHeadcrabCanister"
+		"volume"	"1.0"
+	}
+}
+"TestChamber_Industrial.ScrapedMetal_01"
+{
+	"playevent"
+	{
+		"event"	"AmbientMetal.ScrapedMetal01"
+		"volume"	"1.0"
+	}
+}
+"TestChamber_Destruction.DestructionBase"
+{
+	"playevent"
+	{
+		"event"	"AmbientSynth.DestructionBeauty"
+		"volume"	"1.0"
+	}
+	"playevent"
+	{
+		"event"	"AmbientSynth.DestructionGrainClick"
+		"volume"	"1.0"
+	}
+	"playsoundscape"
+	{
+		"name" "TestChamber_Industrial.ScrapedMetal_01"
+		"volume" "0.5"
+	}
+	"playsoundscape" 
+ 	{
+		"name"	"TestChamber_Destruction.WindEerie_01"
+		"volume" "1"
+	}
+}
+
+
+
+
+"TestChamber.liquid_04"
+
+{
+	"dsp"	"1"
+	"fadetime" "1"
+
+
+	"playevent"
+	{
+		"event"	"AmbientNature.WaterSludgeLp01Lo"
+		"volume"	"1.0"
+		"position"	"0"
+	}
+	"playevent"
+	{
+		"event"	"AmbientIndustrial.Muffled01Lp"
+		"volume"	"0.5"
+	}
+
+
+
+	"playsoundscape"
+	{
+		"name" 		"util_lo.end_mach"
+		"volume"	 ".75"
+
+	}
+
+	"playsoundscape"
+	{
+		"name" 		"util_water.drain"
+		"volume"	 ".25"
+	}
+
+	"playsoundscape"
+	{
+		"name" 		"utility.metal.imp.lo"
+		"volume"	 ".55"
+
+	}
+
+	"playevent"
+	{
+		"event"	"AmbientIndustrial.MachBehindWallsLp05"
+		"position"	"1"
+		"volume"	"1.0"
+	}
+
+}
+
+
+
+"util_lo.end_mach"
+{
+	"playevent"
+	{
+		"event"	"AmbientIndustrial.RandomMuffledMach02"
+		"volume"	"1.0"
+	}
+
+}
+"util_water.drain"
+{
+	"playevent"
+	{
+		"event"	"AmbientNature.WaterDrain"
+		"volume"	"1.0"
+	}
+
+}
+"utility.metal.imp.lo"
+{
+	"playevent"
+	{
+		"event"	"AmbientMetal.ImpWarehouseLo"
+		"volume"	"1.0"
+	}
+}
+
+
+
+"Testchamber_med_01a"
+
+{
+	"dsp"	"1"
+	"fadetime" "1"
+
+
+	"playevent"
+	{
+		"volume"	"0.4"
+		"event"		"AmbientIndustrial.Muffled02Lp"
+		"pitch"		"120"
+
+	}
+
+	"playsoundscape"
+	{
+		"name" 		"util.tech.random.ambient.hi"
+		"volume"	 ".2"
+
+	}
+
+	"playsoundscape"
+	{
+		"name" 		"utility.metal.imp.lo"
+		"volume"	 ".4"
+
+	}
+
+	"playevent"
+	{
+		"volume"	"1.0"
+		"event"		"AmbientTones.AbstractAirLp02"
+	}
+
+}
+
+
+"goalie_interior_01"
+{
+	"dsp"	"1"
+	"fadetime" ".2"
+
+
+
+
+	"playevent"
+	{
+		"event"	"AmbientNature.WaterSludgeLp01"
+		"volume"	"1.0"
+		"position"	"0"
+	}
+	"playevent"
+	{
+		"event"	"AmbientNature.WaterLeakLp"
+		"volume"	"1.0"
+		"position"	"1"
+	}
+	"playevent"
+	{
+		"volume"	"1.0"
+		"event"		"AmbientTones.AbstractAirLp02"
+	}
+
+
+
+	"playsoundscape"
+	{
+		"name" "TestChamber_Vegetation.BirdsInsects"
+		"volume" ".63"
+	}
+}
+
+"goalie_interior_01_hlaportaledit"
+{
+	"dsp"	"1"
+	"fadetime" ".2"
+
+
+
+
+	"playevent"
+	{
+		"event"	"AmbientNature.WaterSludgeLp01Lo"
+		"volume"	"1.0"
+		"position"	"0"
+	}
+	"playevent"
+	{
+		"event"	"AmbientNature.WaterLeakLp"
+		"volume"	"1.0"
+		"position"	"1"
+	}
+	"playevent"
+	{
+		"volume"	"1.0"
+		"event"		"AmbientTones.AbstractAirLp02"
+	}
+
+
+
+	"playsoundscape"
+	{
+		"name" "TestChamber_Vegetation.BirdsInsects"
+		"volume" ".63"
+	}
+}
+
+
+"TestChamber.Industrial_muffled_03"
+{
+	"dsp"	"1"
+	"fadetime" "1"
+
+
+	"playevent"
+	{
+		"volume"	"0.45"
+		"event"		"AmbientIndustrial.Muffled04Lp"
+	}
+
+	"playsoundscape"
+	{
+		"name" "util_lo.end_mach"
+		"volume" ".62"
+	}
+
+	"playevent"
+	{
+		"volume"	"0.95"
+		"position"	"0"
+		"event"		"AmbientIndustrial.MachBehindWallsLp03"
+	}
+}
+
+
+
+"TestChamber.Industrial_muffled_05"
+{
+	"dsp"	"1"
+	"fadetime" "1"
+
+
+	"playevent"
+	{
+		"volume"	"1.1"
+		"event"		"AmbientIndustrial.Muffled01Lp"
+
+	}
+
+	"playevent"
+	{
+		"volume"	"0.2"
+		"event"		"AmbientIndustrial.HeavyMach01Lp"
+
+	}
+
+	"playsoundscape"
+	{
+		"name" "util_lo.end_mach"
+		"volume" ".85"
+	}
+
+	"playevent"
+	{
+		"volume"	"0.8"
+		"wave"		"AmbientIndustrial.MachBehindWallsLp02"
+		"position"	"0"
+	}
+
+	"playevent"
+	{
+		"volume"	"0.7"
+		"wave"		"AmbientIndustrial.MachBehindWallsLp01"
+		"position"	"1"
+	}
+}
+
+"warehouse.Industrial_01"
+{
+	"dsp"	"1"
+	"fadetime" "1"
+
+
+	"playevent"
+	{
+		"volume"	"0.45"
+		"event"		"AmbientIndustrial.HeavyMach01Lp"
+	}
+
+	"playsoundscape"
+	{
+		"name" "util_lo.end_mach"
+		"volume" "1"
+	}
+
+	"playsoundscape"
+	{
+		"name" "utility.metal.imp.lo"
+		"volume" "1"
+	}
+
+
+	"playevent"
+	{
+		"volume"	"0.8"
+		"wave"		"AmbientIndustrial.MachBehindWallsLp02"
+		"position"	"0"
+	}
+
+	"playevent"
+	{
+		"volume"	"0.7"
+		"wave"		"AmbientIndustrial.MachBehindWallsLp01"
+		"position"	"1"
+	}
+}

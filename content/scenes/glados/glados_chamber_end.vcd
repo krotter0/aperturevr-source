@@ -1,0 +1,113 @@
+// Choreo version 1
+actor "!player"
+{
+  channel "audio"
+  {
+    event speak "glados.testchambermisc41"
+    {
+      time 0.000000 0.836000
+      param "glados.testchambermisc41"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "glados.laughter"
+    {
+      time 1.309000 2.818000
+      param "glados.laughter"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "glados.fgbturrets01"
+    {
+      time 3.115000 7.112000
+      param "glados.fgbturrets01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "glados.fgb_trap08"
+    {
+      time 8.193000 15.220000
+      param "glados.fgb_trap08"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "glados.fgb_trap03"
+    {
+      time 15.921000 18.427999
+      param "glados.fgb_trap03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "LookAt"
+  {
+  }
+  channel "FaceTo"
+  {
+  }
+  channel "MoveTo"
+  {
+  }
+  channel "Animation"
+  {
+  }
+  channel "Gesture"
+  {
+  }
+  channel "Trigger"
+  {
+    event firetrigger "neurotoxin"
+    {
+      time 6.697917 -1.000000
+      param "1"
+    }
+    event firetrigger "goodbye"
+    {
+      time 17.450001 -1.000000
+      param "2"
+    }
+    event firetrigger "andholdit"
+    {
+      time 14.000000 -1.000000
+      param "3"
+    }
+  }
+}
+
+actor "glados_chamber_body"
+{
+  channel "LookAt"
+  {
+    event lookat "lookat player"
+    {
+      time 0.000000 35.000000
+      param "!player"
+    }
+  }
+  channel "Animation"
+  {
+    event sequence "glados_anim"
+    {
+      time 0.000000 35.000000
+      param "gladosbattle_firstpart"
+      fixedlength
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "56"
+  "ExpressionTool" "100"
+  "RampTool" "66"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off
