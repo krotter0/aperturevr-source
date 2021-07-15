@@ -134,7 +134,7 @@ end
 
 function Restore()
 	StopListeningToGameEvent(restoreListener)
-	UpdateRelays()
+	thisEntity:SetThink("UpdateRelays", "UpdateRelaysThink", 0.15)
 	if thisEntity:GetContext("LaserOn") == "on" then
 		thisEntity:SetThink("LaserThinkFunc", "LaserThink", 0.15)
 	end
